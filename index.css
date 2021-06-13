@@ -1,0 +1,45 @@
+body{
+    background-color: #564138;
+}
+* {
+    box-sizing: border-box;
+  }
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+  }
+/* .grid-container {
+    margin:0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "auto auto auto auto auto" "auto auto auto auto auto" "auto auto auto auto auto" "auto auto auto auto auto" "auto auto auto auto auto";
+  }
+  .grid-container div{
+    display: flex;
+    margin: 1px;
+} */
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mynd{
+
+    width: 100%;
+    display: flex;
+  }
